@@ -4,9 +4,9 @@
 # Input number 0-1000
 num = int(input("Enter a number(0-1000): "))
 
-# Check if it is 0-1000
+# Check if it is 0-1000. If true, print the number in 6 digit format.
+# If false, print Inavalid
 if num >= 0 and num <= 1000:
-    # Print the number in 6 digit format
     print("%06d" % (num))
 else:
     print("Invalid number")
