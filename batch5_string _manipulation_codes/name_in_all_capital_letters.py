@@ -2,7 +2,7 @@
 # Print the input in all capital letter.
 
 # Input full name
-full_name = input("Please enter your full name: ")
+full_name = input("Enter your full name: ")
 
 # Print in all capital letters
 print(full_name.upper())

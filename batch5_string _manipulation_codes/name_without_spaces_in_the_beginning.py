@@ -2,7 +2,7 @@
 # characters at the beginning. Print the input without the spaces in the beginning.
 
 # Input fullname
-full_name = input("Enter your full name: ")
+full_name = input("Enter your full name (with several spaces at the beginning): ")
 
 # Output without spaces in the beginning
 print(full_name.lstrip())
