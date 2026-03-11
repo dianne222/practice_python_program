@@ -14,4 +14,4 @@ for i in range(9):
     difference_of_ten_numbers -= number
 
 # Print the result
-print(difference_of_ten_numbers)
+print("First number minus all remaining number is:", difference_of_ten_numbers)
