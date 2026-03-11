@@ -10,4 +10,4 @@ for i in range(10):
     sum_of_ten_numbers += number
 
 # Print the sum of 10 numbers
-print(sum_of_ten_numbers)
+print("The sum of ten numbers is:", sum_of_ten_numbers)
