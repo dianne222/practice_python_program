@@ -11,5 +11,5 @@ for i in range(10):
 
 # change the list into set then back to list
 numbers_set = set(numbers_list)
-numbers_list = list(numbers_list)
+numbers_list = list(numbers_set)
 
