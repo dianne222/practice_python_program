@@ -17,4 +17,5 @@ while True:
         count += 1
 
     except ValueError:
+        print("Lowest number:", lowest_number)
         break
