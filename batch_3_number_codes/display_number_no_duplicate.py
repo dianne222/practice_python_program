@@ -6,10 +6,10 @@ numbers = []
 # Input numbers
 for i in range(10):
     number = int(input("Enter a number: "))
-    numbers.append(num)
+    numbers.append(number)
 
 # checks if the number have duplicate
 for number in numbers:
-    if numbers.count(num) == 1:
+    if numbers.count(number) == 1:
         print(num, end=" ")
 
