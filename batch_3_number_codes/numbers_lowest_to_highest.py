@@ -10,5 +10,8 @@ while True:
         number = int(input("Enter a number: "))
         numbers.append(number)
 
+    # Print the numbers in ascending order
     except ValueError:
+        numbers.sort()
+        print(str(numbers)[1:-1])
         break
