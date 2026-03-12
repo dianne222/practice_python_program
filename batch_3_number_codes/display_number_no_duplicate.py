@@ -5,11 +5,11 @@ numbers = []
 
 # Input numbers
 for i in range(10):
-    num = int(input("Enter a number: "))
+    number = int(input("Enter a number: "))
     numbers.append(num)
 
 # checks if the number have duplicate
-for num in numbers:
+for number in numbers:
     if numbers.count(num) == 1:
         print(num, end=" ")
 
