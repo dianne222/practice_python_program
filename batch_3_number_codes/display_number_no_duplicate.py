@@ -11,5 +11,5 @@ for i in range(10):
 # checks if the number have duplicate
 for number in numbers:
     if numbers.count(number) == 1:
-        print(num, end=" ")
+        print(number, end=" ")
 
