@@ -13,3 +13,5 @@ for i in range(10):
 numbers_set = set(numbers_list)
 numbers_list = list(numbers_set)
 
+# Print the numbers
+print(str(numbers_list)[1:-1])
