@@ -15,3 +15,5 @@ for number in numbers_list:
     if numbers_list.count(number) > 1:
         numbers_set.add(number)
 
+numbers_duplicate = list(numbers_set)
+print(str(numbers_duplicate)[1:-1])
