@@ -5,15 +5,15 @@
 characters = []
 
 # Input full name in lower case
-full_name = input("Enter your full name(in lower case): ")
+name = input("Enter your name(in lower case): ")
 
 # turns the characters into upper case
-for i in full_name:
+for i in name:
     if 'a' <= i <= 'z':
         characters.append(chr(ord(i) - 32)) #converts the lower case letter to upper case using ASCII
     elif 'A' <= i <= 'Z':
         characters.append(i)
 
-full_name = "".join(characters)
+name = "".join(characters)
 
-print(full_name)
+print(name)
