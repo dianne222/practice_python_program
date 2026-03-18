@@ -11,6 +11,6 @@ while True:
         number_list.append(number)
 
     except ValueError:
-        print(max(number_list))
+        print("Highest number:", max(number_list)) # print the highest number
         break
 
