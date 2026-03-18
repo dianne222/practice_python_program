@@ -10,11 +10,10 @@ full_name = input("Enter your full name(in lower case): ")
 # turns the characters into upper case
 for i in full_name:
     if 'a' <= i <= 'z':
-        characters.append(ord(i) - 32) #converts the lower case letter to upper case using ASCII
+        characters.append(chr(ord(i) - 32)) #converts the lower case letter to upper case using ASCII
     elif 'A' <= i <= 'Z':
         characters.append(i)
 
-
-
+full_name = "".join(characters)
 
 print(full_name)
