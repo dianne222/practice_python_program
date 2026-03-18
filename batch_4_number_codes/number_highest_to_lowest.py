@@ -12,4 +12,5 @@ while True:
 
     except ValueError:
         number_list.sort(reverse=True)
+        print(str(number_list)[1:-1])
         break
