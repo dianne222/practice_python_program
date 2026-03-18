@@ -4,8 +4,6 @@
 # List for the numbers
 numbers = []
 duplicates = {}
-most_duplicate = 0
-
 
 # Input number until invalid
 while True:
@@ -17,5 +15,7 @@ while True:
         numbers.sort()
         for i in numbers:
             duplicates[i] = numbers.count(i)
+        most_duplicate = max(duplicates, key = duplicates.get)
+        print("Most duplicate number:", most_duplicate)
 
         break
